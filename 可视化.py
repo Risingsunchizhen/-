@@ -15,7 +15,6 @@ import matplotlib.patches as mpatches
 plt.rcParams['xtick.direction']='in' #####刻度向内
 plt.rcParams['ytick.direction']='out'
 # plt.rc('font',family='Alibaba PuHuiTi 2.0',color='#005493ff')
-plt.rcParams["font.sans-serif"]=[myfont] #设置字体
 # plt.rcParams['font.weight']='bold'
 plt.rcParams["axes.unicode_minus"]=False #该语句解决图像中的“-”负号的乱码问题
 plt.rcParams['axes.spines.right']=False###去掉图右边轴
