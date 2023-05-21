@@ -9,14 +9,11 @@ import backtrader as bt
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt
-from matplotlib import font_manager
 import matplotlib.dates as mdates
 import matplotlib.ticker as mtick
-myfont='AlibabaPuHuiTi-2-55-Regular'
 import matplotlib.patches as mpatches
 plt.rcParams['xtick.direction']='in' #####刻度向内
 plt.rcParams['ytick.direction']='out'
-font_manager.fontManager.addfont(r"D:\anaconda\Lib\site-packages\matplotlib\mpl-data\fonts\ttf\{}.ttf".format(myfont))
 # plt.rc('font',family='Alibaba PuHuiTi 2.0',color='#005493ff')
 plt.rcParams["font.sans-serif"]=[myfont] #设置字体
 # plt.rcParams['font.weight']='bold'
