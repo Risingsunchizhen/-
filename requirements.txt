@@ -3,3 +3,4 @@ tushare
 backtrader
 matplotlib
 scipy.optimize
+scipy
